@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="incio3.css">
+    <script src="funciones.js"></script>
+    <title>YoTellevo</title>
+</head>
+<body>
+    <header>
+        <!-- header-top  -->
+    <div class="position-fixed w-100 z-3">
+        <div class="header-top">
+            <div class="py-0 container d-flex justify-content-between align-items-center">
+                <div class="m-0 d-inline-block">
+                    <div class="circulo d-inline-flex justify-content-center">
+                        <a href="https://www.facebook.com/"><img src="img/icono-face.png" alt="facebook"></a>
+                    </div>
+                    <div class="circulo d-inline-flex justify-content-center">
+                        <a href="https://www.instagram.com/"><img src="img/icono-ig.png" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="m-0 d-inline-block white">
+                    <div class="telefono d-inline-block">
+                        <img src="img/Telefono.png" alt="telefono">
+                        <p class="ms-1 d-inline-block">(55) 2139-7219</p>
+                    </div>
+                    <p class=" d-inline-block black fw-bold mx-1 ">
+                        |
+                    </p>
+                    <div class="correo diplay-inline-block">
+                        <img src="img/Email.png" alt="correo">
+                        <p class="ms-1 d-inline-block">administracion@yotellevo.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-bottom  -->
+        <div class="header-bottom z-3">
+            <div class="container">
+                <nav class="d-flex justify-content-between align-items-center">
+                    
+                    <div class="logo m-0">
+                        <img src="img/loco.png" alt="logo">
+                    </div>
+                    <!-- iconos cerrar & abrir  -->
+
+                        <div class="m-0 d-flex">
+                            <a href="#nav_list" class="hamburger ">
+                                <img class="w-100" src="img/nav_icon.png" alt="hamburger"class="w-100 position-absolute">
+                            </a>
+                            <a href="#" class="hamburger nav_close">
+                                <img src="img/x.png" alt="hamburger" class="w-100 position-absolute">
+                            </a>
+                        </div>
+                    <!-- menu  -->
+                    <div class="menu d-flex m-0 align-items-center w-100" id="nav_list">
+
+                        <ul class="d-flex nav_list">
+                            <li><a href="incio3.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li class="nav_link">
+                                <a class="dropdown d-flex align-items-center position-relative">Servicios
+                                <img class="m-0 down" src="img/down.svg" alt="flecha">
+                                <input type="checkbox" class="menu_check" title="desplegar" >
+                                </a> 
+                                <div class="submenu position-absolute text-uppercase m-0 white fw-bold">
+                                    <ul class="submenu_list">
+                                        <li><a href="servicios.html">Valet Parking</a></li>
+                                        <li><a href="servicios.html">Administración de Estacionamientos</a></li>
+                                        <li><a href="servicios.html">Chofer Elegido</a></li>
+                                        <li><a href="servicios.html">Chofer con Coche</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="contacto.html">Clientes</a>                               
+                            </li>
+                            <li><a href="contacto.html">Eventos</a></li>
+                            <li class="nav_link">
+                                <a class="dropdown d-flex align-items-center position-relative">Contacto 
+                                <img class="m-0 down" src="img/down.svg" alt="flecha">
+                                <input type="checkbox" class="menu_check" title="desplegar" >
+                                </a> 
+                                <!-- drop-content -->
+                                <div class="submenu  position-absolute text-uppercase m-0 white fw-bold">
+                                    <!-- dropdown-sub -->
+                                    <ul class="submenu_list">
+                                        <!-- dropdown_li  -->
+                                        <li>Contratación de servicios</li>
+                                        <li>aplicar a Vacantes</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="contacto.html">Blog</a></li>
+                        </ul>
+                        <a class="d-flex align-items-center btn text-center w-100" href="#">
+                                <img src="img/whatsapp-icon.png" alt=""> 
+                                <span>Envíanos Un Mensaje</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="container h-100">
+                <div class="inicio d-flex h-100">
+                    <div class="texto-one text-center">
+                        <span class="fs-3 fw-bold position-relative t--1">YO TE LLEVO</span>
+                        <h1 class="fs-1 fw-bold">Valet Parking &</h1>
+                        <h1 class="fs-1 fw-bold ">Estacionamientos</h1>
+                    </div>
+                    <div>
+                        <button>
+                            <a class="fw-bold" href="contacto.html">Ver Servicios </a>
+                            <img src="img/arrow.png" alt="position-relative d-inline-flex w-100">
+                        </button>
+                        <button >
+                            <a class="fw-bold" href="contacto.html">Contáctanos</a>
+                        </button>
+                    </div>
+                </div>
+    </main>
+                    <!-- servicos crusel  -->
+<section>
+    <div class="carousel container position-relative d-flex flex-wrap justify-content-center text-center gap-1 w-100">
+        <div class="position-relative">
+        <img src="img/servicio1.png" alt="servicio 1">
+            <div class=" overlay position-absolute d-flex m-auto w-100 h-100 cursor-pointer align-content-center align-items-center justify-content-center text-center">
+                <img src="img/llaves-blanco.png" alt="Icono">
+                <span>
+                    Valet Parking
+                </span>
+            </div>
+        </div>
+        <div class="position-relative">
+            <img src="img/servicio2.png" alt="servicio 1">
+                <div class=" overlay position-absolute d-flex m-auto w-100 h-100 cursor-pointer align-content-center align-items-center justify-content-center text-center">
+                    <img src="img/coches-blanco.png" alt="Icono">
+                    <span>
+                        Administración de Estacionamientos
+                    </span>
+                </div>
+        </div>
+        <div class="position-relative">
+        <img src="img/servicio3.png" alt="servicio 1">
+            <div class=" overlay position-absolute d-flex m-auto w-100 h-100 cursor-pointer align-content-center align-items-center justify-content-center text-center">
+                <img src="img/chofer-blanco.png" alt="Icono">
+                <span>
+                    Chofer elegido
+                </span>
+            </div>
+        </div>
+        <div class="position-relative">
+            <img src="img/servicio4.png" alt="servicio 1">
+            <div class=" overlay position-absolute d-flex m-auto w-100 h-100 cursor-pointer align-content-center align-items-center justify-content-center text-center">
+                <img src="img/chofer-coche-blanco.png" alt="Icono">
+                <span>
+                    Chofer con coche
+                </span>
+            </div>
+            <div class="flecha-one position-absolute d-flex align-items-center ">
+                <img src="img/arrow.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+                    <!-- seccion info  -->
+    <section>
+        <div class="container d-flex flex-wrap mt-1">
+            <div class="position-relative w-50">
+                <img class="w-100" src="img/persona 1.png" alt="persona">
+            </div>
+            <div class=" mb-1 justify-content-center d-flex flex-column">
+                <h2 class="fw-bold fs-3 red text-uppercase m-0">
+                    enfocados en la seguridad vial 
+                </h2>
+                <h1 class="fw-bolder mb-1 fs-1 text-uppercase">
+                    empresa mexicana 
+                </h1>
+                <p class="gray m-0 mb-1 fs-3">
+                    Fundada en el año 2016 por la CEO  <span class="fw-bold"> XXXXXX XXXXXXXX </span> <br>
+                    fundadora innovadora y creadora detrás de <span class="fw-bold">YO TE LLEVO </span>
+                   <br> empresa de gran crecimiento.
+                </p>
+                <p class="gray m-0 fs-3 mb-1">
+                    Queremos revolucionar la cultura de responsabilidad,
+                    <br> transparencia, consciencia y seguridad en México.
+                </p>
+                <div class="m-0">
+                    <button class="btn-info" type="submit">
+                        <a href="#" class="fw-bold" >Acerca De Nosotros</a>
+                        <img src="img/arrow.png" alt="">
+                    </button>
+                </div>
+        </div>
+    </section>
+                    <!-- scores  -->
+    <section>
+        <div class="bg-clientes">
+            <div class="container align-items-center justify-content-center">
+                <div class=" mx-auto text-center white">
+                    <h2 class="fw-bold fs-3 text-uppercase red mt-3">CLIENTES</h2>
+                    <h1 class="fw-bold fs-1 text-center mb-3">Trabajamos con marcas <br> reconocidas</h1>
+                </div>
+            <div class=" d-flex flex-wrap text-center marcas align-items-center justify-content-center mb-3 ">
+                    <div class="flecha-two-right d-flex align-items-center w-100 h-100">
+                        <img src="img/arrow.png" alt="">
+                    </div>
+                
+                    <div class="m-4">
+                        <img src="img/marca1.png" alt="">
+                    </div>
+                    <div class="m-4">
+                        <img src="img/marca2.png" alt="">
+                    </div>
+                    <div class="m-4">
+                        <img src="img/marca3.png" alt="">
+                    </div>
+                    <div class="m-4">
+                        <img src="img/marca4.png" alt="">
+                    </div>
+                    <div class="m-4">
+                        <img src="img/marca5.png" alt="">
+                    </div>
+                    <div class="flecha-two d-flex align-items-center w-100 h-100">
+                        <img src="img/arrow.png" alt="">
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+                    <!-- seccion eventos  -->
+    <section>
+        <div class="container">
+            <h2 class="fw-bold text-uppercase fs-3 red ">eventos</h2>
+            <h1 class="fw-bolder fs-1">Respondemos, cumplimos <br> y cuidamos tu negocio </h1>
+            <div class="d-grid evento justify-content-center mt-2">
+                <div class=" eventos">
+                    <img src="img/evento-1.png" alt="servicio-1">
+                    <div>
+                        <h1 class="fs-2 fw-bolder m-2">Evento 1</h1>
+                        <div class="m-2 position-relative">
+                            <span class="text-body-tertiary m-auto">
+                                Queremos revolucionar la cultura de responsabilidad, transparencia, consciencia y seguridad en México.
+                            </span>
+                            <button class="white fw-bold btn-evento m-0 mt-1 d-block">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventos">
+                    <img src="img/evento-2.png" alt="servicio-1">
+                        <div>
+                            <h1 class="fs-2 fw-bolder m-2">Evento 2</h1>
+                            <div class="m-2">
+                                <span class="text-body-tertiary m-auto">
+                                    Queremos revolucionar la cultura de responsabilidad, transparencia, consciencia y seguridad en México.
+                                </span>
+                                <button class="white fw-bold btn-evento m-0 mt-1 d-block">Ver Más</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="eventos">
+                    <img src="img/evento-3.png" alt="servicio-1">
+                    <div>
+                        <h1 class="fs-2 fw-bolder m-2">Evento 3</h1>
+                        <div class="m-2">
+                            <span class="text-body-tertiary m-auto ">
+                                Queremos revolucionar la cultura de responsabilidad, transparencia, consciencia y seguridad en México.
+                            </span>
+                            <button class="white fw-bold btn-evento m-0 mt-1 d-block">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    <!-- seccion numeros  -->
+    <section>
+        <div class="bg-score mt-3">
+            <div class="container d-flex flex-wrap h-100 align-content-center justify-content-between">
+                <div class="m-0">
+                        <img class="score-img" src="img/score1.png" alt="score-1">
+                    <div class="d-inline-block ms-1">
+                        <h1 class="fs-1 fw-bold white ">1570</h1>
+                        <span class="white fw-bold text-uppercase">Clientes Stisfechos</span>
+                    </div>
+                </div>
+                <div class="m-0">
+                    <img class="score-img" src="img/score2.png" alt="score-1">
+                <div class="d-inline-block ms-1">
+                    <h1 class="fs-1 fw-bold white">250</h1>
+                    <span class="white fw-bold text-uppercase">valets y Choferes</span>
+                </div>
+                </div>
+                <div class="m-0">
+                    <img class="score-img" src="img/score3.png" alt="score-1">
+                <div class="d-inline-block ms-1">
+                    <h1 class="fs-1 fw-bold white">25</h1>
+                    <span class="white fw-bold text-uppercase"> Estacionamientos</span>
+                </div>
+                </div>
+                <div class="m-0">
+                    <img class="score-img" src="img/score4.png" alt="score-1">
+                <div class="d-inline-block ms-1">
+                    <h1 class="fs-1 fw-bold white">305</h1>
+                    <span class="white fw-bold text-uppercase">eventos realizados</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                    <!-- seccion contacto  -->
+    <section>
+        <div class="container">
+                <div class="d-flex mt-5 flex-wrap">
+                    <div class="m-0 titulo-contacto w-100">
+                        <h2 class="text-uppercase fw-bold f-3 red">contrataciones</h2>
+                        <h1 class="fs-1 fw-bold"> Somos seguros, honestos y <br> eficientes</h1>
+                    </div>
+                    <div class="text-contacto w-100">
+                        <span class="gray mb-1">
+                            Asegura el mejor cuidado para tu vehículo y disfruta de la comodidad y <br> la paz mental que solo nuestro servicio de valet parking puede ofrecerte.
+                        </span>
+                        <br>
+                        <span class="gray fw-bold">
+                        Completa el formulario ahora y transforma tu experiencia de
+                        <br>
+                        estacionamiento hoy mismo.
+                        </span>
+                    </div>
+                </div>
+                <!-- redes sociales de contacto  -->
+            <div class="d-grid formulario">
+                <div class="redes-contacto w-100 mt-2 d-flex flex-column flex-wrap align-items-flex-start justify-content-between position-relative">
+
+                    <div class="d-flex m-0">
+                        <a class="icon-info align-items-center d-inline-flex">
+                        <img src="img/ubi.png" alt="Ubicación">
+                        </a>
+                        <div class="d-flex justify-content-center flex-column m-0 ms-1">
+                            <h1 class="fw-bold fs-3 m-0 mb-1">Dirección</h1>
+                            <span class="gray">Ciudad de México, CDMX, México</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex m-0">
+                        <a class="icon-info align-items-center d-inline-flex">
+                        <img src="img/tel.png" alt="Telefono">
+                        </a>
+                        <div class="d-flex justify-content-center flex-column m-0 ms-1">
+                            <h1 class="fw-bold fs-3 m-0 mb-1">Teléfonos</h1>
+                            <span class="gray">(55) 2139-7219</span>
+                            <span class="gray">(55) 2139-7219</span>
+                        </div>
+                    </div>
+                    <div class="d-flex m-0">
+                        <a class="icon-info align-items-center d-inline-flex">
+                        <img src="img/mail.png" alt="Ubicación">
+                        </a>
+                        <div class="d-flex justify-content-center flex-column m-0 ms-1">
+                            <h1 class="fw-bold fs-3 m-0 mb-1">Email</h1>
+                            <p class="gray">administracion@yotellevo.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- formulario  -->
+                    <form action="" class="form">
+                            
+                                <input class="inputs mb-1 d-inline-block me-2" type="text" placeholder="Nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+                            
+                            
+                                <input class="inputs mb-1 d-inline-block" type="email" placeholder="Correo electronico" class="form-control" id="email">
+                            
+                            
+                                <input class="inputs mb-1 d-inline-block me-2" type="tel"  placeholder="telefono" class="form-control" id="telefono">
+                            
+                            
+                                <input class="inputs mb-1 d-inline-block" type="text"  placeholder="Asunto" class="form-control" id="telefono">
+
+                            <textarea class="form-control mensaje m-auto"  placeholder="mensaje" id="mensaje" rows="3"></textarea>
+                        <div class="text-start">
+                        <button type="submit" class="btn-form m-0 mt-1 ">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer">
+        <div class="container">
+                <div class="footer-top d-flex flex-wrap white mb-3">
+                    <div class="footer-text-top m-0">
+                        <h1 class="fw-bold mb-1">¿Qué esperas? ¡Tu seguridad es primero!</h1>
+                        <span class="fw-bold mb-1">Valet parking y Estacionamientos. <span class="red"> !Contrata Ya!</span></span>
+                    </div>
+                    <div class="m-0">
+                        <button class="whatsapp-button-2 d-flex" title="contactar">
+                            <img src="img/whatsapp-icon.png" alt="whatsapp">
+                            <a href="#" >Envianos un mensaje</a>
+                        </button>
+                    </div>
+                </div>
+                <span class="line d-block"></span>
+                <div class="footer-top d-flex white">
+                    <img  class="logo-footer" src="img/logo-footer.png" alt="logo">
+                    <div class="footer-text-top-2 m-0">
+                        <span>
+                            Somos una empresa mexicana conformada por gente  joven enfocada a la seguridad vial.
+                        </span>
+                        <span>
+                            Queremos revolucionar la cultura de responsabilidad, <br> transparencia, consciencia y seguridad en México ofreciendo servicios de:
+                        </span>
+                    </div>
+                            <div class="categorias d-grid w-100">
+                                <div class="position-relative">
+                                    <img class="w-100" src="img/valet-parking-footer.png" alt="servicio-1">
+                                    <div class="overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            Valet Parking
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img class="w-100"src="img/administacion-estacionamientos-footer.png" alt="servicio-1">
+                                    <div class="overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            administración de Estacionamientos
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img class="w-100" src="img/servicio-chofer-footer.png" alt="servicio-1">
+                                    <div class="overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            Servicio de chofer
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img class="w-100" src="img/reclutamineto-choferes-footer.png" alt="servicio-1">
+                                    <div class="overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            Reclutamineto de Choferes
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img class="w-100" src="img/servicio-privado.png" alt="servicio-1">
+                                    <div class=" overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            Servicio de Transporte Privado
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="position-relative">
+                                    <img class="w-100" src="img/adecuacion-estacionaminetos-footer.png" alt="servicio-1">
+                                    <div class="overlay d-flex flex-column position-absolute cursor-pointer w-100 h-100 align-content-center align-items-center justify-content-center text-center rounded-1">
+                                        <span>
+                                            Adecuación de Estacionamientos
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <span class="line d-block"></span>
+                <div class="justify-content-between d-flex white  mt-3 ">
+                    <span class="m-0 text-center">Yo te llevo &copy;2024. All Rights Reserved.</span>
+                    <div class="footer-3 align-content-around justify-content-around d-flex m-0">
+                        <span class="m-0 me-2">Terminios y condiciones</span>
+                        <span>Nosotros</span>
+                        <span class="m-0">Contacto</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
+</html>
